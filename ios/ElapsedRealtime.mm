@@ -7,9 +7,9 @@ RCT_EXPORT_MODULE()
 /**
  * Return a relative time in seconds that can't be tampered with by the user
  */
-RCT_EXPORT_METHOD(getElapsedRealtime: (RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(getElapsedRealtime)
 {
-    resolve([NSString stringWithFormat:@"%ld", [self uptime]]);
+    return [NSString stringWithFormat:@"%ld", [self uptime]];
 }
 
 /**

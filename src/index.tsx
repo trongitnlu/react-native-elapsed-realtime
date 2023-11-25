@@ -17,6 +17,11 @@ const ElapsedRealtime = NativeModules.ElapsedRealtime
       }
     );
 
-export function getElapsedRealtime(): Promise<number> {
+/**
+ * Returns the elapsed real time in seconds.
+ *
+ * @return {number} The elapsed real time in seconds.
+ */
+export function getElapsedRealtime(): number {
   return ElapsedRealtime.getElapsedRealtime();
 }
