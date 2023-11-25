@@ -1,6 +1,6 @@
 {
   "name": "react-native-elapsed-realtime-cs",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "This module help get elapsed realtime in system",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -38,13 +38,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/trongitnlu/react-native-elapsed-realtime",
+  "repository": "https://github.com/trongitnlu/react-native-elapsed-realtime-cs",
   "author": "Nguyễn Văn Trọng <trongitnlu@gmail.com> (https://github.com/trongitnlu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trongitnlu/react-native-elapsed-realtime/issues"
+    "url": "https://github.com/trongitnlu/react-native-elapsed-realtime-cs/issues"
   },
-  "homepage": "https://github.com/trongitnlu/react-native-elapsed-realtime#readme",
+  "homepage": "https://github.com/trongitnlu/react-native-elapsed-realtime-cs#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
