@@ -23,5 +23,5 @@ const ElapsedRealtime = NativeModules.ElapsedRealtime
  * @return {number} The elapsed real time in seconds.
  */
 export function getElapsedRealtime(): number {
-  return ElapsedRealtime.getElapsedRealtime();
+  return Number(ElapsedRealtime.getElapsedRealtime());
 }
