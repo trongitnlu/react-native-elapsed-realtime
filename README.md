@@ -15,7 +15,8 @@ import { getElapsedRealtime } from 'react-native-elapsed-realtime-cs';
 
 // ...
 
-getElapsedRealtime().then((duration: any) => console.warn(duration));
+const duration = getElapsedRealtime();
+console.warn(duration);
 ```
 
 ## Contributing
